@@ -1,0 +1,44 @@
+body{
+  margin:0;
+ border-top:px solid black; 
+  font-family:helvetica;
+  font-size:100%;
+  font-style:inherit;
+  font-weight:bold;
+}
+.wrap{
+ width:800px;
+ margin:10px auto;
+ border:10px solid #000000;
+ padding:10px;
+ overflow:visible;
+ white-space: nowrap;
+}
+span{
+  display:block; 
+}
+.first-line{
+  font-size:89px;
+  letter-spacing:-.083em;
+  background:#000000;
+  color:#ffffff;
+  line-height:1.4em;
+  padding:5px;
+}
+.second-line{
+  font-size:51px;
+  letter-spacing:-3.75px;
+}
+.third-line{
+  font-size:42px;
+  letter-spacing:.2px;
+}
+.fourth-line{
+  font-size:28px;
+  letter-spacing:.185em;
+}
+.fifth-line{
+  font-size:20px;
+  letter-spacing:.625em;
+
+}

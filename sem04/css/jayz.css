@@ -1,0 +1,189 @@
+body { margin: 0 }
+
+h1 {
+    color: #3D6AA2;
+    position: relative;
+    font: bold 4em/2em;
+    font-family: 'Graduate', cursive;;
+}
+
+h1 span:nth-of-type(1) {
+    display: block;
+    text-indent: 44%;
+    text-shadow: -03.25em 0 0 #CCC, 03.25em 0 0 #CCC,
+                 -6.50em 0 0 #CCC, 6.50em 0 0 #CCC,
+                 -10.75em 0 0 #CCC, 10.25em 0 0 #CCC,
+                 -15.00em 0 0 #CCC, 15.00em 0 0 #CCC,
+                 -26.75em 0 0 #CCC, 26.75em 0 0 #CCC,
+                 -36.50em 0 0 #CCC, 36.50em 0 0 #CCC,
+                 -45.25em 0 0 #CCC, 42.25em 0 0 #CCC,
+                 -49.00em 0 0 #CCC, 46.00em 0 0 #CCC,
+                 -51.75em 0 0 #CCC, 51.75em 0 0 #CCC,
+                 -57.50em 0 0 #CCC, 57.50em 0 0 #CCC;
+}
+
+h1 span:nth-of-type(2) {
+    display: block;
+    text-indent: 49%;
+    text-shadow: -06.75em 0 0 #CCC, 06.75em 0 0 #CCC,
+                 -13.40em 0 0 #CCC, 13.40em 0 0 #CCC,
+                 -20.10em 0 0 #CCC, 20.10em 0 0 #CCC,
+                 -34.80em 0 0 #CCC, 27.80em 0 0 #CCC,
+                 -39.00em 0 0 #CCC, 29.00em 0 0 #CCC,
+                 -40.20em 0 0 #CCC, 31.00em 0 0 #CCC,
+                 -36.40em 0 0 #CCC, 36.40em 0 0 #CCC;
+}
+
+h1::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        linear-gradient( 90deg, white, rgba(255,255,255,0) 5em),
+        linear-gradient(-90deg, white, rgba(255,255,255,0) 5em);
+    position: absolute;
+    top: 0; left: 0;
+}
+
+p {
+    width: 80%;
+    color: #666;
+    margin: 1em auto;
+    font: 2em ;
+     font-family: 'Graduate', cursive;
+}
+
+a {
+    color: #3D6AA2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    color: #3D6AA2;
+    position: relative;
+    font: bold 4em/2em;
+    font-family: 'Graduate', cursive;
+}
+
+h2 span:nth-of-type(1) {
+    display: block;
+    text-indent: 44%;
+    text-shadow: -05.25em 0 0 #e6e6e6, 05.25em 0 0 #e6e6e6,
+                 -10.50em 0 0 #e6e6e6, 10.50em 0 0 #e6e6e6,
+                 -16.75em 0 0 #e6e6e6, 16.25em 0 0 #e6e6e6,
+                 -19.00em 0 0 #e6e6e6, 19.00em 0 0 #e6e6e6,
+                 -25.75em 0 0 #e6e6e6, 25.75em 0 0 #e6e6e6,
+                 -36.50em 0 0 #e6e6e6, 36.50em 0 0 #e6e6e6,
+                 -45.25em 0 0 #e6e6e6, 42.25em 0 0 #e6e6e6,
+                 -49.00em 0 0 #e6e6e6, 46.00em 0 0 #e6e6e6,
+                 -51.75em 0 0 #e6e6e6, 51.75em 0 0 #CCC,
+                 -57.50em 0 0 #e6e6e6, 57.50em 0 0 #CCC;
+}
+
+h2 span:nth-of-type(2) {
+    display: block;
+    text-indent: 49%;
+    text-shadow: -05.75em 0 0 #CCC, 05.75em 0 0 #CCC,
+                 -10.40em 0 0 #CCC, 10.40em 0 0 #CCC,
+                 -16.10em 0 0 #CCC, 16.10em 0 0 #CCC,
+                 -19.80em 0 0 #CCC, 19.80em 0 0 #CCC,
+                 -39.00em 0 0 #CCC, 29.00em 0 0 #CCC,
+                 -40.20em 0 0 #CCC, 31.00em 0 0 #CCC,
+                 -36.40em 0 0 #CCC, 36.40em 0 0 #CCC;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        linear-gradient( 90deg, white, rgba(255,255,255,0) 5em),
+        linear-gradient(-90deg, white, rgba(255,255,255,0) 5em);
+    position: absolute;
+    top: 0; left: 0;
+}
+
+p {
+    width: 80%;
+    color: #666;
+    margin: 1em auto;
+    font: 2em ;
+    font-family: 'Graduate', cursive;
+}
+
+a {
+    color: #3D6AA2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+h3 {
+    color: #FF0000;
+    position: relative;
+    font: bold 4em/2em;
+    font-family: 'Graduate', cursive;
+}
+
+h3 span:nth-of-type(1) {
+    display: block;
+    text-indent: 44%;
+    text-shadow: -05.25em 0 0 #CCC, 05.25em 0 0 #CCC,
+                 -10.50em 0 0 #CCC, 10.50em 0 0 #CCC,
+                 -15.75em 0 0 #CCC, 15.25em 0 0 #CCC,
+                 -21.00em 0 0 #CCC, 21.00em 0 0 #CCC,
+                 -25.75em 0 0 #CCC, 25.75em 0 0 #CCC,
+                 -36.50em 0 0 #CCC, 36.50em 0 0 #CCC,
+                 -45.25em 0 0 #CCC, 42.25em 0 0 #CCC,
+                 -49.00em 0 0 #CCC, 46.00em 0 0 #CCC,
+                 -51.75em 0 0 #CCC, 51.75em 0 0 #CCC,
+                 -57.50em 0 0 #CCC, 57.50em 0 0 #CCC;
+}
+
+h3 span:nth-of-type(2) {
+    display: block;
+    text-indent: 49%;
+    text-shadow: -05.75em 0 0 #CCC, 05.75em 0 0 #CCC,
+                 -10.40em 0 0 #CCC, 10.40em 0 0 #CCC,
+                 -16.10em 0 0 #CCC, 16.10em 0 0 #CCC,
+                 -19.80em 0 0 #CCC, 19.80em 0 0 #CCC,
+                 -39.00em 0 0 #CCC, 29.00em 0 0 #CCC,
+                 -40.20em 0 0 #CCC, 31.00em 0 0 #CCC,
+                 -36.40em 0 0 #CCC, 36.40em 0 0 #CCC;
+}
+
+h3::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        linear-gradient( 90deg, white, rgba(255,255,255,0) 5em),
+        linear-gradient(-90deg, white, rgba(255,255,255,0) 5em);
+    position: absolute;
+    top: 0; left: 0;
+}
+
+p {
+    width: 80%;
+    color: #666;
+    margin: 1em auto;
+    font: 2em ;
+     font-family: 'Graduate', cursive;
+}
+
+a {
+    color: #3D6AA2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}

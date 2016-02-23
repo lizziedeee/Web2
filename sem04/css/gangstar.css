@@ -1,0 +1,27 @@
+
+body {
+	font-family: "Archivo Black", Sans-Serif; color: #fff;
+	background: #000000; 
+}
+
+div {
+	width: 950px; margin: 80px auto;
+}
+
+p { 
+	font-size: 30px; line-height: 70px;
+	text-transform: uppercase; 
+}
+
+.twitter {
+	color: #FF0000;
+}
+
+p:first-child:first-letter {
+	font-size: 150px; float: left; margin: 20px 20px 0 0;  line-height: 0.7;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}	

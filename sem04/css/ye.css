@@ -1,0 +1,21 @@
+body{
+	margin-top: 50px;
+	margin: 0 auto;
+	padding: 20px;
+	font-family: 'Futura';
+	font-weight: oblique;
+	font-style: italic;
+	color: white; 
+
+}
+
+.wrap-center{
+	margin-left: 35%;
+}
+
+.title-primary{
+	margin-top: 200px;
+	background-color: red;
+	width: 59%;
+	padding:2%;
+}

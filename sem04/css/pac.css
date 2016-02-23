@@ -1,0 +1,95 @@
+.rule-top span {
+  position: relative;
+}
+
+.rule-top span:before {
+  content: "-";
+  position: absolute;
+  top: -0.7em;
+}
+
+.vertical span {
+  display: block;
+}
+
+.stair-step span {
+  display: block;
+}
+
+.stair-step span + span {
+  margin-left: 1em;
+}
+
+.stair-step span + span + span {
+  margin-left: 2em;
+}
+
+.stair-step span + span + span + span {
+  margin-left: 3em;
+}
+
+.stair-step span + span + span + span + span {
+  margin-left: 4em;
+}
+
+.stair-step span + span + span + span + span + span {
+  margin-left: 5em;
+}
+
+.stair-step span + span + span + span + span + span + span {
+  margin-left: 6em;
+}
+
+.stair-step span + span + span + span + span + span + span + span {
+  margin-left: 7em;
+}
+
+.stair-step span + span + span + span + span + span + span + span + span {
+  margin-left: 8em;
+}
+
+.hyphen-spaced span:not(:first-child):before {
+  content: "-";
+}
+
+.typewriter-underlined {
+  text-transform: none;
+}
+
+.typewriter-underlined span {
+  position: relative;
+}
+
+.typewriter-underlined span:after {
+  content: "_";
+  position: absolute;
+  left: 0;
+}
+
+.rotated {
+  /* text-transform: none; */
+}
+
+.rotated span {
+  display: inline-block;
+  transform: rotate(20deg);
+}
+
+body {
+  margin: 0;
+}
+
+h1, p {
+  margin: .1em;
+  letter-spacing: 0.1em;
+  font-size: 1.2em;
+  font-family: Courier New, Menlo, monospace;
+  text-transform: uppercase;
+  font-weight: 400;
+  display: inline-block;
+}
+
+h1:hover, p:hover {
+  color: navy;
+  cursor: pointer;
+}
